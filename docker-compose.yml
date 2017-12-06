@@ -1,11 +1,10 @@
-services:
-    web:
-      build: .
-      command: /etc/init.d/httpd restart
-      restart: always
-      hostname: 'www.example.com'
-      ports:
-        - '8080:80'
-      volumes:
-        - ./index.html:/var/www/html/index.html
+  web:
+    build: .
+    command: /etc/init.d/httpd restart
+    restart: always
+    hostname: 'www.example.com'
+    ports:
+      - '8080:80'
+    volumes:
+      - ./index.html:/var/www/html/index.html
   
