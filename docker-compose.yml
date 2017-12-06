@@ -8,5 +8,5 @@ services:
       ports:
         - '8080:80'
       volumes:
-        - index.html:/var/www/html/index.html
+        - ./index.html:/var/www/html/index.html
   
