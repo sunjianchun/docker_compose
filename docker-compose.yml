@@ -1,7 +1,7 @@
 ---
   web:
     build: .
-    command: /bin/bash
+    command: bash -c "/usr/sbin/httpd && ping www.baidu.com" 
     restart: always
     hostname: 'www.example.com'
     ports:
