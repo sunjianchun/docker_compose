@@ -1,4 +1,4 @@
-FROM centos6-init 
+FROM docker.io/centos 
 
 MAINTAINER SunJianchun  version: 1.0
 

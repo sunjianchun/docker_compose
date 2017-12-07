@@ -1,6 +1,7 @@
+---
   web:
     build: .
-    command: /etc/init.d/httpd restart
+    command: /bin/bash
     restart: always
     hostname: 'www.example.com'
     ports:
